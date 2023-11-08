@@ -1,0 +1,55 @@
+.manu-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+.manu-items{
+    display: flex;
+}
+.manu-items li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+.manu-items li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.banner-description{
+    margin-left: 50px;
+}
+.banner-text{
+    color: red;
+    font-size: 24px;
+}
+.title1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+.text{
+    font-size: 24px;
+    margin: 10px;
+}
+.banner-btn{
+    padding: 18px 38px;
+    background-color: rgb(239, 9, 47);
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: white;
+}
+.banner-btn:hover{
+    color: blue;
+}
